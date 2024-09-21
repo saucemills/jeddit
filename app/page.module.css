@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  padding-top: 64px; /* Adjust this value based on your navbar height */
 }
 
 .description {
@@ -204,4 +205,8 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.contentWrapper {
+  /* Add any additional styling for your content here */
 }
